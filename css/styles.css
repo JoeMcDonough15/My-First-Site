@@ -105,9 +105,11 @@ p {
 }
 
 .me {
-  border-radius: 100%;
-  width: 20%;
-  object-fit: contain;
+  /* border-radius: 50%; */
+  /* object-fit:contain; */
+  /* height: 50vh; */
+  /* width: 50vw; */
+  clip-path: circle(50%);
 }
 
 .middle-container {
